@@ -27,8 +27,8 @@ public class MathUtility {
         // sống sót đến đây, sure n = 2 ... 20
         // for hay đệ quy mà tính 
         long product = 1; // biến tích lũy, gom việc nhân i vào 
-            for (int i = 2; i < n; i++)  // cap nhat 
-                product *= i;
-            return product;      
+            for (int i = 2; i <= n; i++)  // do not make code wrong 
+                product *= i;             // if upload this modification
+            return product;               //we will sê the Green again!
     }
 }
